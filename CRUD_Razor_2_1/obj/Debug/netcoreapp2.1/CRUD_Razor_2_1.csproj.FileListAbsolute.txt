@@ -31,3 +31,4 @@ C:\Users\lucyq\source\repos\CRUD_Razor_2_1\CRUD_Razor_2_1\obj\Debug\netcoreapp2.
 C:\Users\lucyq\source\repos\CRUD_Razor_2_1\CRUD_Razor_2_1\obj\Debug\netcoreapp2.1\CRUD_Razor_2_1.pdb
 C:\Users\lucyq\source\repos\CRUD_Razor_2_1\CRUD_Razor_2_1\obj\Debug\netcoreapp2.1\CRUD_Razor_2_1.csproj.CopyComplete
 C:\Users\lucyq\source\repos\CRUD_Razor_2_1\CRUD_Razor_2_1\obj\Debug\netcoreapp2.1\Razor\Pages\BookList\Index.g.cshtml.cs
+C:\Users\lucyq\source\repos\CRUD_Razor_2_1\CRUD_Razor_2_1\obj\Debug\netcoreapp2.1\Razor\Pages\BookList\Create.g.cshtml.cs
