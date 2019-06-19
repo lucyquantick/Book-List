@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using CRUD_Razor_2_1.Model;
 
 namespace CRUD_Razor_2_1
 {
@@ -31,6 +33,7 @@ namespace CRUD_Razor_2_1
 				options.MinimumSameSitePolicy = SameSiteMode.None;
 			});
 
+			services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 		}
