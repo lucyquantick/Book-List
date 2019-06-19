@@ -16,6 +16,9 @@ namespace CRUD_Razor_2_1.Pages.BookList
 		// To access DB need applicationDbContext object - use dependency injection for this
 		private readonly ApplicationDbContext _db;
 
+		[TempData]
+		public string Message { get; set; }
+
 		public IEnumerable<Book> Books { get; set; }
 
 		public IndexModel(ApplicationDbContext db)

@@ -52,10 +52,10 @@ namespace CRUD_Razor_2_1
 			}
 
 			app.UseHttpsRedirection();
-			app.UseStaticFiles();
-			app.UseCookiePolicy();
+			app.UseStaticFiles();		
 
 			app.UseMvc();
+			app.UseCookiePolicy();
 		}
 	}
 }
